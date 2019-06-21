@@ -4,6 +4,8 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class DateTool {
+
+    // For Remote Git
     public static Date addHoursToNow(int hoursToAdd) {
         Date now = new Date();
         Calendar calendar =Calendar.getInstance();
