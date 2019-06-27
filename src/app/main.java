@@ -17,25 +17,35 @@ public class main {
         Date years = null;
 
 
-
-        result = addNumbers(firstNum,secondNum);
+        result = addNumbers(firstNum, secondNum);
         System.out.println(result);
-        result = subtractNambers(firstNum,secondNum);
+        result = subtractNambers(firstNum, secondNum);
         System.out.println(result);
-        result = divideNambers(firstNum,secondNum);
+        result = divideNambers(firstNum, secondNum);
         System.out.println(result);
-        result = multiplyNumbers(firstNum,secondNum);
+        result = multiplyNumbers(firstNum, secondNum);
         System.out.println(result);
 
         hours = addHoursToNow(3);
         System.out.println(hours);
         days = addDayToNow1(2);
         System.out.println(days);
+
         minute = addMinuteToNow(10);
         System.out.println(minute);
         dayOfYear = addDayToNow(5);
         System.out.println(dayOfYear);
         years = addYearsToNow(5);
         System.out.println(years);
+
+        Date myDtDate = stringToDate("September 6, 2005");
+        System.out.println(myDtDate);
+
+        String myDate = dateToString(myDtDate);
+        System.out.println(myDate);
+
     }
-}
+
+    }
+
+
